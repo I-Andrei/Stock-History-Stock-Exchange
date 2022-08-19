@@ -46,12 +46,9 @@ function App() {
     } else {
       return (
         <ul>
-        
-          <div >Hi World <button onClick={test}></button></div>
-        
-        
+          <div > Hi World <button onClick={test}></button></div>
         </ul>
-      );
+      )
     }
   }
 
