@@ -34,14 +34,14 @@ function MyChart(props) {
       },
     },
   };
-  const labels = props.labelsEthereum
+  const labels = props.labelsCrypto
       
   const data = {
     labels,
     datasets: [
       {
         label: 'Crypto Price Chart',
-        data: props.stocks1,
+        data: props.cryptoData,
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       }
